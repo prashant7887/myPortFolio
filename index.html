@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Prashant Tripathi - Software Developer (.NET) | ASP.NET Core, C#, SQL Server | Building scalable ERP & management systems">
+    <meta name="description"
+        content="Prashant Tripathi - Software Developer (.NET) | ASP.NET Core, C#, SQL Server | Building scalable ERP & management systems">
     <meta name="keywords" content=".NET Developer, ASP.NET Core, C#, Full Stack Developer, Software Engineer">
     <meta name="author" content="Prashant Tripathi">
     <meta property="og:title" content="Prashant Tripathi | .NET Software Developer">
@@ -11,7 +13,9 @@
     <meta property="og:type" content="website">
     <title>Prashant Tripathi | Software Developer (.NET)</title>
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@600;700;800&display=swap"
+        rel="stylesheet">
     <!-- Font Awesome for Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
@@ -180,7 +184,8 @@
             transition: var(--transition);
         }
 
-        .nav-links a:hover, .nav-links a.active {
+        .nav-links a:hover,
+        .nav-links a.active {
             color: var(--accent-primary);
         }
 
@@ -372,8 +377,15 @@
         }
 
         @keyframes float {
-            0%, 100% { transform: translateY(0); }
-            50% { transform: translateY(-15px); }
+
+            0%,
+            100% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(-15px);
+            }
         }
 
         .experience-badge i {
@@ -418,7 +430,7 @@
             right: -50%;
             width: 100%;
             height: 100%;
-            background: linear-gradient(135deg, transparent, rgba(255,255,255,0.1));
+            background: linear-gradient(135deg, transparent, rgba(255, 255, 255, 0.1));
             transition: transform 0.6s;
         }
 
@@ -654,7 +666,8 @@
             gap: 1.5rem;
         }
 
-        .form-group input, .form-group textarea {
+        .form-group input,
+        .form-group textarea {
             width: 100%;
             padding: 1rem;
             border-radius: 0.5rem;
@@ -665,13 +678,15 @@
             transition: var(--transition);
         }
 
-        .form-group input:focus, .form-group textarea:focus {
+        .form-group input:focus,
+        .form-group textarea:focus {
             outline: none;
             border-color: var(--accent-primary);
             box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
         }
 
-        .form-group input.error, .form-group textarea.error {
+        .form-group input.error,
+        .form-group textarea.error {
             border-color: #ef4444;
         }
 
@@ -761,7 +776,9 @@
         }
 
         @keyframes spin {
-            to { transform: rotate(360deg); }
+            to {
+                transform: rotate(360deg);
+            }
         }
 
         /* Page transition animations */
@@ -770,6 +787,7 @@
                 opacity: 0;
                 transform: translateY(10px);
             }
+
             to {
                 opacity: 1;
                 transform: translateY(0);
@@ -794,28 +812,61 @@
 
         /* --- Enhanced Animations --- */
         @keyframes slideInLeft {
-            from { opacity: 0; transform: translateX(-50px); }
-            to { opacity: 1; transform: translateX(0); }
+            from {
+                opacity: 0;
+                transform: translateX(-50px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
         }
 
         @keyframes slideInRight {
-            from { opacity: 0; transform: translateX(50px); }
-            to { opacity: 1; transform: translateX(0); }
+            from {
+                opacity: 0;
+                transform: translateX(50px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
         }
 
         @keyframes fadeInUp {
-            from { opacity: 0; transform: translateY(20px); }
-            to { opacity: 1; transform: translateY(0); }
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
         }
 
         @keyframes pulse {
-            0%, 100% { opacity: 1; }
-            50% { opacity: 0.7; }
+
+            0%,
+            100% {
+                opacity: 1;
+            }
+
+            50% {
+                opacity: 0.7;
+            }
         }
 
         @keyframes shimmer {
-            0% { background-position: -1000px 0; }
-            100% { background-position: 1000px 0; }
+            0% {
+                background-position: -1000px 0;
+            }
+
+            100% {
+                background-position: 1000px 0;
+            }
         }
 
         .card-shimmer {
@@ -837,17 +888,23 @@
             left: -100%;
             width: 100%;
             height: 100%;
-            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.1), transparent);
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1), transparent);
             animation: shimmerHover 3s infinite;
         }
 
         @keyframes shimmerHover {
-            0% { left: -100%; }
-            100% { left: 100%; }
+            0% {
+                left: -100%;
+            }
+
+            100% {
+                left: 100%;
+            }
         }
 
         /* Card elevation on hover */
-        .project-card, .skill-category {
+        .project-card,
+        .skill-category {
             box-shadow: var(--shadow);
         }
 
@@ -862,9 +919,17 @@
         }
 
         @keyframes pulse-ring {
-            0% { box-shadow: 0 0 0 0 rgba(59, 130, 246, 0.4); }
-            70% { box-shadow: 0 0 0 10px rgba(59, 130, 246, 0); }
-            100% { box-shadow: 0 0 0 0 rgba(59, 130, 246, 0); }
+            0% {
+                box-shadow: 0 0 0 0 rgba(59, 130, 246, 0.4);
+            }
+
+            70% {
+                box-shadow: 0 0 0 10px rgba(59, 130, 246, 0);
+            }
+
+            100% {
+                box-shadow: 0 0 0 0 rgba(59, 130, 246, 0);
+            }
         }
 
         /* --- Mobile Responsive --- */
@@ -873,6 +938,7 @@
                 width: 350px;
                 height: 450px;
             }
+
             .experience-badge {
                 left: -20px;
                 padding: 1rem;
@@ -880,41 +946,57 @@
         }
 
         @media (max-width: 992px) {
-            .about-grid, .contact-grid {
+
+            .about-grid,
+            .contact-grid {
                 grid-template-columns: 1fr;
                 gap: 2.5rem;
             }
+
             .hero-container {
                 flex-direction: column-reverse;
                 text-align: center;
                 padding-top: 50px;
                 padding-bottom: 50px;
             }
+
             .hero-text {
                 padding-right: 0;
                 margin-top: 3rem;
             }
+
             .hero-btns {
                 justify-content: center;
             }
+
             .hero-image-wrapper {
                 justify-content: center;
                 width: 100%;
             }
+
             .hero-image-card {
                 transform: rotate(0deg);
                 width: 280px;
                 height: 350px;
             }
+
             .experience-badge {
                 left: 50%;
                 transform: translateX(-50%);
                 bottom: -20px;
                 animation: float-mobile 4s ease-in-out infinite;
             }
+
             @keyframes float-mobile {
-                0%, 100% { transform: translateX(-50%) translateY(0); }
-                50% { transform: translateX(-50%) translateY(-10px); }
+
+                0%,
+                100% {
+                    transform: translateX(-50%) translateY(0);
+                }
+
+                50% {
+                    transform: translateX(-50%) translateY(-10px);
+                }
             }
         }
 
@@ -947,35 +1029,35 @@
     <!-- slider Skill Css -->
     <style>
         .skill-slider-wrapper {
-    position: relative;
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-}
+            position: relative;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
 
-.skills-slider {
-    display: flex;
-    gap: 1.5rem;
-    overflow-x: auto;
-    scroll-behavior: smooth;
-    scroll-snap-type: x mandatory;
-    padding: 1rem;
-}
+        .skills-slider {
+            display: flex;
+            gap: 1.5rem;
+            overflow-x: auto;
+            scroll-behavior: smooth;
+            scroll-snap-type: x mandatory;
+            padding: 1rem;
+        }
 
-.skills-slider::-webkit-scrollbar {
-    display: none;
-}
+        .skills-slider::-webkit-scrollbar {
+            display: none;
+        }
 
-.skill-slide {
-    min-width: 180px;
-    background: var(--card-bg);
-    border: 1px solid var(--border-color);
-    border-radius: 1rem;
-    padding: 1.5rem 1rem;
-    text-align: center;
-    scroll-snap-align: start;
-    box-shadow: var(--shadow);
-    transition: var(--transition);
+        .skill-slide {
+            min-width: 180px;
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 1rem;
+            padding: 1.5rem 1rem;
+            text-align: center;
+            scroll-snap-align: start;
+            box-shadow: var(--shadow);
+            transition: var(--transition);
             position: relative;
             overflow: hidden;
         }
@@ -1000,87 +1082,88 @@
         .skill-slide:hover {
             transform: translateY(-6px);
             border-color: var(--accent-primary);
-    font-size: 1rem;
-}
+            font-size: 1rem;
+        }
 
-.skill-bar {
-    height: 6px;
-    background: var(--border-color);
-    border-radius: 5px;
-    overflow: hidden;
-}
+        .skill-bar {
+            height: 6px;
+            background: var(--border-color);
+            border-radius: 5px;
+            overflow: hidden;
+        }
 
-.skill-progress {
-    height: 100%;
-    background: var(--gradient);
-}
+        .skill-progress {
+            height: 100%;
+            background: var(--gradient);
+        }
 
-/* Buttons */
-.slider-btn {
-    background: var(--gradient);
-    border: none;
-    color: white;
-    width: 42px;
-    height: 42px;
-    border-radius: 50%;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: var(--shadow);
-}
+        /* Buttons */
+        .slider-btn {
+            background: var(--gradient);
+            border: none;
+            color: white;
+            width: 42px;
+            height: 42px;
+            border-radius: 50%;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: var(--shadow);
+        }
 
-.slider-btn:hover {
-    transform: scale(1.1);
-}
-
-
+        .slider-btn:hover {
+            transform: scale(1.1);
+        }
     </style>
     <!-- Slider Project Css -->
-     <style>
+    <style>
         .projects-slider-wrapper {
-    position: relative;
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-}
+            position: relative;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
 
-.projects-slider {
-    display: flex;
-    gap: 2rem;
-    overflow-x: auto;
-    scroll-behavior: smooth;
-    padding: 1rem;
-}
+        .projects-slider {
+            display: flex;
+            gap: 2rem;
+            overflow-x: auto;
+            scroll-behavior: smooth;
+            padding: 1rem;
+        }
 
-.projects-slider::-webkit-scrollbar {
-    display: none;
-}
+        .projects-slider::-webkit-scrollbar {
+            display: none;
+        }
 
-.projects-slider .project-card {
-    min-width: 320px;
-    scroll-snap-align: start;
-}
-.project-img {
-    width: 100%;
-    height: 200px; /* adjust if needed */
-    border-radius: 1rem 1rem 0 0;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #000;
-}
+        .projects-slider .project-card {
+            min-width: 320px;
+            scroll-snap-align: start;
+        }
 
-.project-img img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* THIS is the key */
-    display: block;
-}
+        .project-img {
+            width: 100%;
+            height: 200px;
+            /* adjust if needed */
+            border-radius: 1rem 1rem 0 0;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #000;
+        }
 
-     </style>
+        .project-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            /* THIS is the key */
+            display: block;
+        }
+    </style>
 </head>
+
 <body data-theme="light">
 
     <!-- Navigation -->
@@ -1117,7 +1200,8 @@
             <div class="hero-text">
                 <!-- <div class="hero-tag">🚀 Open for Collaborations</div> -->
                 <h1>Software <br><span>Developer</span> (.NET)</h1>
-                <p>Passionate .NET Developer with 3+ years of experience building scalable ERP and management systems.</p>
+                <p>Passionate .NET Developer with 3+ years of experience building scalable ERP and management systems.
+                </p>
                 <div class="hero-btns">
                     <a href="#projects" class="btn btn-primary">My Work <i class="fa-solid fa-arrow-right"></i></a>
                     <a href="#contact" class="btn btn-outline">Let's Talk</a>
@@ -1129,11 +1213,10 @@
                 <div class="hero-image-card">
                     <div class="hero-image-content">
                         <!-- REPLACE THE SRC BELOW WITH YOUR IMAGE URL -->
-                        <img src="prashant.jpeg" 
-                             alt="John Doe Portfolio" 
-                             id="heroImg"
-                             onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
-                        <div class="image-placeholder-icon" style="display:none;"><i class="fa-solid fa-user-tie"></i></div>
+                        <img src="prashant.jpeg" alt="John Doe Portfolio" id="heroImg"
+                            onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                        <div class="image-placeholder-icon" style="display:none;"><i class="fa-solid fa-user-tie"></i>
+                        </div>
                     </div>
                     <!-- Decorative Badge -->
                     <div class="experience-badge">
@@ -1155,14 +1238,16 @@
             <div class="about-grid">
                 <div class="reveal">
                     <p style="font-size: 1.1rem; color: var(--text-muted); margin-bottom: 1.5rem;">
-                        Passionate .NET Developer with 3+ years of experience building scalable, 
-                        high-performance web and desktop applications. Skilled in C#, ASP.NET Core, 
-                        and SQL Server, with a strong focus on clean architecture, performance optimization, 
-                        and intuitive UI design. Proven problem-solver who thrives in collaborative environments 
+                        Passionate .NET Developer with 3+ years of experience building scalable,
+                        high-performance web and desktop applications. Skilled in C#, ASP.NET Core,
+                        and SQL Server, with a strong focus on clean architecture, performance optimization,
+                        and intuitive UI design. Proven problem-solver who thrives in collaborative environments
                         and delivers reliable, business-driven solutions.
                     </p>
                     <p style="font-size: 1.1rem; color: var(--text-muted);">
-                        My approach focuses on writing clean, maintainable code and building products that solve real-world problems. I'm constantly learning new technologies to stay at the forefront of the industry.
+                        My approach focuses on writing clean, maintainable code and building products that solve
+                        real-world problems. I'm constantly learning new technologies to stay at the forefront of the
+                        industry.
                     </p>
                     <div class="about-stats">
                         <div class="stat-card">
@@ -1176,8 +1261,10 @@
                     </div>
                 </div>
                 <div class="reveal" style="text-align: center;">
-                    <div style="width: 300px; height: 300px; background: var(--section-bg); border: 2px dashed var(--border-color); border-radius: 2rem; margin: 0 auto; display: flex; align-items: center; justify-content: center;">
-                        <i class="fa-solid fa-laptop-code" style="font-size: 8rem; color: var(--accent-primary); opacity: 0.3;"></i>
+                    <div
+                        style="width: 300px; height: 300px; background: var(--section-bg); border: 2px dashed var(--border-color); border-radius: 2rem; margin: 0 auto; display: flex; align-items: center; justify-content: center;">
+                        <i class="fa-solid fa-laptop-code"
+                            style="font-size: 8rem; color: var(--accent-primary); opacity: 0.3;"></i>
                     </div>
                 </div>
             </div>
@@ -1239,65 +1326,65 @@
             <div class="skills-grid">
                 <!-- Frontend -->
                 <div class="skill-slider-wrapper reveal">
-    
+
                     <button class="slider-btn prev"><i class="fa-solid fa-chevron-left"></i></button>
-    
+
                     <div class="skills-slider" id="skillsSlider">
                         <!-- Frontend -->
                         <div class="skill-slide">
                             <i class="fa-brands fa-html5"></i>
                             <h5>HTML5</h5>
                         </div>
-    
+
                         <div class="skill-slide">
                             <i class="fa-brands fa-css3-alt"></i>
                             <h5>CSS3/Bootstrap 5</h5>
-                            
+
                         </div>
-    
+
                         <div class="skill-slide">
                             <i class="fa-brands fa-js"></i>
                             <h5>JavaScript</h5>
-                            
+
                         </div>
-    
+
                         <div class="skill-slide">
                             <i class="fa-brands fa-react"></i>
                             <h5>React (Basic)</h5>
-                            
+
                         </div>
-    
+
                         <!-- Backend -->
                         <div class="skill-slide">
                             <i class="fa-solid fa-code"></i>
                             <h5>.NET Core</h5>
-                            
+
                         </div>
-    
+
                         <div class="skill-slide">
                             <i class="fa-solid fa-server"></i>
                             <h5>ASP.NET Web API</h5>
-                            
+
                         </div>
-    
+
                         <!-- DB & Tools -->
                         <div class="skill-slide">
                             <i class="fa-solid fa-database"></i>
                             <h5>SQL Server</h5>
-                            
+
                         </div>
-    
+
                         <div class="skill-slide">
                             <i class="fa-brands fa-github"></i>
                             <h5>GitHub</h5>
-                            
+
                         </div>
                     </div>
-    
+
                     <button class="slider-btn next"><i class="fa-solid fa-chevron-right"></i></button>
-    
+
                 </div>
-    
+
             </div>
         </div>
     </section>
@@ -1307,18 +1394,18 @@
         <div class="container">
             <h2 class="section-title reveal">Featured Projects</h2>
             <div class="projects-slider-wrapper reveal">
-    
+
                 <button class="slider-btn prev" id="projectPrev">
                     <i class="fa-solid fa-chevron-left"></i>
                 </button>
-    
+
                 <div class="projects-slider" id="projectsSlider">
-    
+
                     <!-- Project 1 -->
                     <div class="project-card">
                         <div class="project-img">
                             <!-- <i class="fa-solid fa-hotel"></i> -->
-                             <img src="booking.png" alt=""/>
+                            <img src="booking.png" alt="" />
                         </div>
                         <div class="project-content">
                             <div class="project-tags">
@@ -1330,19 +1417,13 @@
                             <p style="color: var(--text-muted); font-size: 0.95rem;">
                                 Project module to manage bookings, billing, room availability,payment, and reports.
                             </p>
-                            <div class="project-links">
-                                <a href="#" class="btn-outline btn"  target="_blank" style="padding: 0.5rem 1rem;">
-                                    <i class="fa-brands fa-github"></i> Code</a>
-                                <a href="https://booking.macotech.in/userlogin.aspx" target="_blank" class="btn-primary btn" style="padding: 0.5rem 1rem;">
-                                    <i class="fa-solid fa-link"></i> Live</a>
-                            </div>
                         </div>
                     </div>
-    
+
                     <!-- Project 2 -->
                     <div class="project-card">
                         <div class="project-img">
-                            <i class="fa-solid fa-warehouse"></i>
+                            <img src="inventory.png" alt="" />
                         </div>
                         <div class="project-content">
                             <div class="project-tags">
@@ -1354,20 +1435,14 @@
                             <p style="color: var(--text-muted); font-size: 0.95rem;">
                                 Vendor quotation, approval workflow, cost analysis, and invoicing system.
                             </p>
-                            <div class="project-links">
-                                <a href="#" class="btn-outline btn" target="_blank" style="padding: 0.5rem 1rem;">
-                                    <i class="fa-brands fa-github"></i> Code</a>
-                                <a href="https://eams.macobiz.net/login/userlogin.aspx" target="_blank" class="btn-primary btn" style="padding: 0.5rem 1rem;">
-                                    <i class="fa-solid fa-link"></i> Live</a>
-                            </div>
                         </div>
                     </div>
-    
+
                     <!-- Project 3 -->
                     <div class="project-card">
                         <div class="project-img">
                             <!-- <i class="fa-solid fa-users"></i> -->
-                             <img src="hrdashboard.png" alt=""/>
+                            <img src="hrdashboard.png" alt="" />
                         </div>
                         <div class="project-content">
                             <div class="project-tags">
@@ -1379,23 +1454,41 @@
                             <p style="color: var(--text-muted); font-size: 0.95rem;">
                                 Live attendance, payroll, salary slip generation, and employee self-service.
                             </p>
-                            <div class="project-links">
+                            <!-- <div class="project-links">
                                 <a href="#" class="btn-outline btn" target="_blank" style="padding: 0.5rem 1rem;">
                                     <i class="fa-brands fa-github"></i> Code</a>
-                                <a href="https://hrportal.macobiz.net/" target="_blank" class="btn-primary btn" style="padding: 0.5rem 1rem;">
+                                <a href="https://hrportal.macobiz.net/" target="_blank" class="btn-primary btn"
+                                    style="padding: 0.5rem 1rem;">
                                     <i class="fa-solid fa-link"></i> Live</a>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
-    
+                    <!-- Project 4 -->
+                    <div class="project-card">
+                        <div class="project-img">
+                            <!-- <i class="fa-solid fa-hotel"></i> -->
+                            <img src="banquet.png" alt="" />
+                        </div>
+                        <div class="project-content">
+                            <div class="project-tags">
+                                <span class="project-tag">ASP.NET</span>
+                                <span class="project-tag">SQL Server</span>
+                                <span class="project-tag">GitHub</span>
+                            </div>
+                            <h3>Banquet Management System</h3>
+                            <p style="color: var(--text-muted); font-size: 0.95rem;">
+                                Project module to manage bookings, billing, menues,payment, and reports.
+                            </p>
+                        </div>
+                    </div>
                 </div>
-    
+
                 <button class="slider-btn next" id="projectNext">
                     <i class="fa-solid fa-chevron-right"></i>
                 </button>
-    
+
             </div>
-    
+
         </div>
     </section>
 
@@ -1417,15 +1510,19 @@
                             </a>
                         </p>
                         <ul style="margin-top: 1rem; color: var(--text-muted); list-style-position: inside;">
-                            <li>Spearheaded development and customization of ERP modules including Asset Management, Inventory
+                            <li>Spearheaded development and customization of ERP modules including Asset Management,
+                                Inventory
                                 Management, Hotel Management, and Product Management.</li>
-                            <li>Delivered scalable solutions tailored to diverse client requirements across multiple industries.</li>
-                            <li>Designed and architected applications using C#, ASP.NET Core MVC, Entity Framework, and SQL Server.</li>
-                            <li>Optimized data management and streamlined business processes through efficient backend design.</li>
+                            <li>Delivered scalable solutions tailored to diverse client requirements across multiple
+                                industries.</li>
+                            <li>Designed and architected applications using C#, ASP.NET Core MVC, Entity Framework, and
+                                SQL Server.</li>
+                            <li>Optimized data management and streamlined business processes through efficient backend
+                                design.</li>
                         </ul>
                     </div>
                 </div>
-                
+
                 <!-- Experience 2 -->
                 <div class="timeline-item reveal">
                     <div class="timeline-dot"></div>
@@ -1441,7 +1538,8 @@
                         <ul style="margin-top: 1rem; color: var(--text-muted); list-style-position: inside;">
                             <li>Played a key role in developing and enhancing a College Management System (ERP).</li>
                             <li>Contributed to the implementation of an Attendance Management System.</li>
-                            <li>Ensured seamless integration with existing infrastructure while meeting client specifications.</li>
+                            <li>Ensured seamless integration with existing infrastructure while meeting client
+                                specifications.</li>
                             <li>Collaborated with team members to improve system reliability and usability.</li>
                         </ul>
                     </div>
@@ -1497,10 +1595,11 @@
                 <div class="contact-info reveal">
                     <h3>Let’s Build Something Great Together</h3>
                     <p style="color: var(--text-muted); margin-bottom: 2rem;">
-                        I’m open to full-time opportunities and freelance projects. Feel free to reach out—I'm always happy to
+                        I’m open to full-time opportunities and freelance projects. Feel free to reach out—I'm always
+                        happy to
                         discuss ideas, requirements, or collaborations.
                     </p>
-            
+
                     <div class="contact-item">
                         <div class="contact-icon">
                             <i class="fa-solid fa-envelope"></i>
@@ -1513,18 +1612,18 @@
                         </div>
                     </div>
 
-    <div class="contact-item">
-        <div class="contact-icon">
-            <i class="fa-solid fa-location-dot"></i>
-        </div>
-        <div>
-            <p style="font-weight: 600;">Location</p>
-            <p style="color: var(--text-muted);">
-                Noida, Uttar Pradesh, India
-            </p>
-        </div>
-    </div>
-</div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <div>
+                            <p style="font-weight: 600;">Location</p>
+                            <p style="color: var(--text-muted);">
+                                Noida, Uttar Pradesh, India
+                            </p>
+                        </div>
+                    </div>
+                </div>
 
 
                 <form class="contact-form reveal" id="contactForm" novalidate>
@@ -1540,8 +1639,11 @@
                         <textarea id="message" placeholder="Your Message" required></textarea>
                         <div class="form-error" id="messageError"></div>
                     </div>
-                    <button type="submit" class="btn btn-primary" id="submitBtn">Send Message <i class="fa-solid fa-paper-plane"></i></button>
-                    <div id="formStatus" style="display:none; padding: 1rem; border-radius: 0.5rem; text-align: center; margin-top: 1rem;"></div>
+                    <button type="submit" class="btn btn-primary" id="submitBtn">Send Message <i
+                            class="fa-solid fa-paper-plane"></i></button>
+                    <div id="formStatus"
+                        style="display:none; padding: 1rem; border-radius: 0.5rem; text-align: center; margin-top: 1rem;">
+                    </div>
                 </form>
             </div>
         </div>
@@ -1552,7 +1654,8 @@
         <div class="container">
             <div class="social-links">
                 <a href="https://github.com" target="_blank" title="GitHub"><i class="fa-brands fa-github"></i></a>
-                <a href="https://linkedin.com" target="_blank" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://linkedin.com" target="_blank" title="LinkedIn"><i
+                        class="fa-brands fa-linkedin"></i></a>
                 <a href="https://twitter.com" target="_blank" title="Twitter"><i class="fa-brands fa-twitter"></i></a>
                 <a href="mailto:prashanttripathi9601@gmail.com" title="Email"><i class="fa-solid fa-envelope"></i></a>
             </div>
@@ -1778,75 +1881,76 @@
         });
     </script>
     <!-- slider Skill Script -->
-     <script>
-const slider = document.getElementById('skillsSlider');
-const nextBtn = document.querySelector('.slider-btn.next');
-const prevBtn = document.querySelector('.slider-btn.prev');
+    <script>
+        const slider = document.getElementById('skillsSlider');
+        const nextBtn = document.querySelector('.slider-btn.next');
+        const prevBtn = document.querySelector('.slider-btn.prev');
 
-const slideAmount = 220; // card width + gap
+        const slideAmount = 220; // card width + gap
 
-nextBtn.addEventListener('click', () => {
-    slider.scrollLeft += slideAmount;
-});
+        nextBtn.addEventListener('click', () => {
+            slider.scrollLeft += slideAmount;
+        });
 
-prevBtn.addEventListener('click', () => {
-    slider.scrollLeft -= slideAmount;
-});
+        prevBtn.addEventListener('click', () => {
+            slider.scrollLeft -= slideAmount;
+        });
 
-/* Auto Sliding */
-let autoSlide = setInterval(() => {
-    slider.scrollLeft += slideAmount;
-    if (slider.scrollLeft + slider.clientWidth >= slider.scrollWidth) {
-        slider.scrollLeft = 0;
-    }
-}, 3000);
+        /* Auto Sliding */
+        let autoSlide = setInterval(() => {
+            slider.scrollLeft += slideAmount;
+            if (slider.scrollLeft + slider.clientWidth >= slider.scrollWidth) {
+                slider.scrollLeft = 0;
+            }
+        }, 3000);
 
-/* Pause on hover */
-slider.addEventListener('mouseenter', () => clearInterval(autoSlide));
-slider.addEventListener('mouseleave', () => {
-    autoSlide = setInterval(() => {
-        slider.scrollLeft += slideAmount;
-        if (slider.scrollLeft + slider.clientWidth >= slider.scrollWidth) {
-            slider.scrollLeft = 0;
-        }
-    }, 3000);
-});
-</script>
-<!-- Project Slider Script -->
- <script>
-const projectSlider = document.getElementById('projectsSlider');
-const projectNext = document.getElementById('projectNext');
-const projectPrev = document.getElementById('projectPrev');
+        /* Pause on hover */
+        slider.addEventListener('mouseenter', () => clearInterval(autoSlide));
+        slider.addEventListener('mouseleave', () => {
+            autoSlide = setInterval(() => {
+                slider.scrollLeft += slideAmount;
+                if (slider.scrollLeft + slider.clientWidth >= slider.scrollWidth) {
+                    slider.scrollLeft = 0;
+                }
+            }, 3000);
+        });
+    </script>
+    <!-- Project Slider Script -->
+    <script>
+        const projectSlider = document.getElementById('projectsSlider');
+        const projectNext = document.getElementById('projectNext');
+        const projectPrev = document.getElementById('projectPrev');
 
-const projectSlideWidth = 360;
+        const projectSlideWidth = 360;
 
-projectNext.addEventListener('click', () => {
-    projectSlider.scrollLeft += projectSlideWidth;
-});
+        projectNext.addEventListener('click', () => {
+            projectSlider.scrollLeft += projectSlideWidth;
+        });
 
-projectPrev.addEventListener('click', () => {
-    projectSlider.scrollLeft -= projectSlideWidth;
-});
+        projectPrev.addEventListener('click', () => {
+            projectSlider.scrollLeft -= projectSlideWidth;
+        });
 
-/* Auto slide */
-let projectAutoSlide = setInterval(() => {
-    projectSlider.scrollLeft += projectSlideWidth;
-    if (projectSlider.scrollLeft + projectSlider.clientWidth >= projectSlider.scrollWidth) {
-        projectSlider.scrollLeft = 0;
-    }
-}, 4000);
+        /* Auto slide */
+        let projectAutoSlide = setInterval(() => {
+            projectSlider.scrollLeft += projectSlideWidth;
+            if (projectSlider.scrollLeft + projectSlider.clientWidth >= projectSlider.scrollWidth) {
+                projectSlider.scrollLeft = 0;
+            }
+        }, 4000);
 
-/* Pause on hover */
-projectSlider.addEventListener('mouseenter', () => clearInterval(projectAutoSlide));
-projectSlider.addEventListener('mouseleave', () => {
-    projectAutoSlide = setInterval(() => {
-        projectSlider.scrollLeft += projectSlideWidth;
-        if (projectSlider.scrollLeft + projectSlider.clientWidth >= projectSlider.scrollWidth) {
-            projectSlider.scrollLeft = 0;
-        }
-    }, 4000);
-});
-</script>
+        /* Pause on hover */
+        projectSlider.addEventListener('mouseenter', () => clearInterval(projectAutoSlide));
+        projectSlider.addEventListener('mouseleave', () => {
+            projectAutoSlide = setInterval(() => {
+                projectSlider.scrollLeft += projectSlideWidth;
+                if (projectSlider.scrollLeft + projectSlider.clientWidth >= projectSlider.scrollWidth) {
+                    projectSlider.scrollLeft = 0;
+                }
+            }, 4000);
+        });
+    </script>
 
 </body>
+
 </html>
